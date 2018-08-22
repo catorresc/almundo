@@ -1,0 +1,20 @@
+{
+  "name": "almundo",
+  "version": "1.0.0",
+  "description": "Desarrollo api rest basada en NODE y React en el front",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server/server.config.js"
+  },
+  "keywords": [],
+  "author": "Carlos Andres Torres <carlos.torres.co@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
