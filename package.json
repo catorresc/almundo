@@ -5,13 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server/server.config.js",
     "dev": "nodemon src/server/server.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catorresc/almundo.git"
   },
   "keywords": [],
   "author": "Carlos Andres Torres <carlos.torres.co@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
+    "mongoose": "^5.2.9",
     "morgan": "^1.9.0"
   },
   "devDependencies": {
